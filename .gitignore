@@ -63,3 +63,4 @@ ReactionSimulations/Temp/*
 ReactionSimulations/Logs/*
 ReactionSimulations/UserSettings/*
 ReactionSimulations/.vsconfig
+ReactionSimulations/obj/*
