@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// Controller class for loading between the scenes in the game.
+/// </summary>
 public class SceneController
 {
     public void LoadInitialization()
