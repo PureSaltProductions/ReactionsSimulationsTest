@@ -26,15 +26,12 @@ public class PersistantData : IInitializable
         }
     }
 
-    private Score _scoreData;
+    private Score _scoreData = new Score();
 
     public Score ScoreData { get => _scoreData; set => _scoreData = value; }
 
     public void Initialize()
     {
-        //// Load high score from player prefs
-        //_scoreData.HighScore = PlayerPrefs.GetFloat(MagicString.HighScore, 0);
-        //// Load previous score from player prefs
-        //_scoreData.PreviousScore = PlayerPrefs.GetFloat(MagicString.PreviousScore, 0);
+
     }
 }

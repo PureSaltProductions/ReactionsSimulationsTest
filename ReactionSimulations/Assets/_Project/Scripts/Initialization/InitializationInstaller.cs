@@ -9,6 +9,7 @@ public class InitializationInstaller : MonoInstaller
 {
     public override void InstallBindings()
     {
-        Container.BindInterfacesAndSelfTo<PersistantData>().AsSingle();
+        SignalBusInstaller.Install(Container);
+        Container.BindInterfacesAndSelfTo<PersistantData>().AsSingle().NonLazy();
     }
 }
